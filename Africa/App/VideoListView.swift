@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  VideoListView.swift
 //  Africa
 //
 //  Created by Ragnhild Kjellevold Steinsland on 14/03/2021.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct VideoListView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Video")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct VideoListView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        VideoListView()
     }
 }
